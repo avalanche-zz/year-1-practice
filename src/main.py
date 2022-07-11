@@ -130,7 +130,7 @@ def main() -> None:
     actions = {
         "0": ("Выйти",),
         "1": ("Заменить максимальный элемент каждой строки на противоположный по знаку", change_max_of_each_row_to_its_additive_inverse) ,
-        "2": ("Вставить после всех столбцов, содержащих максимальный элемент массива, столбей из нулей", insert_zero_column_after_each_column_containing_max_array_element),
+        "2": ("Вставить после всех столбцов, содержащих максимальный элемент массива, столбец из нулей", insert_zero_column_after_each_column_containing_max_array_element),
         "3": ("Удалить все столбцы, в которых есть отрицательный элемент", remove_columns_containing_negative_element),
         "4": ("Поменять местами первый и последний столбцы", swap_first_and_last_columns),
     }
